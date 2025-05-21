@@ -228,7 +228,7 @@ input {
 }
 
 .bg-gray2 {
-  background-color: #787878;
+  background-color: #e7e7e7;;
 }
 
 .bg-theme-small {
@@ -3860,7 +3860,7 @@ blockquote {
 =================================================================== */
 
 footer .f-item p {
-  color: #999999;
+  color: #000;
 }
 
 footer .f-item > h3,
@@ -3962,7 +3962,7 @@ footer .f-item.link li {
 }
 
 footer .f-item.link li a {
-  color: #999999;
+  color: #000;
   display: inline-block;
   font-weight: 400;
   margin-bottom: 10px;
