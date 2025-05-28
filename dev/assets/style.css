@@ -42,6 +42,8 @@ Table of contents
 ** General Styles for HTML tags
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -55,7 +57,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -70,11 +72,19 @@ html, body, .wrapper {
 
 h1, h2, h3, h4, h5, h6 {
   color: #323a45;
-  font-weight: normal;
   line-height: 1.2;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   letter-spacing: 0;
   margin: 0;
+}
+
+.h1, h1 {
+    font-size: 64px;
+    font-weight: 800!important;
+}
+
+.h2, h2 {
+    font-size: 56px;
 }
 
 h1,h2,h3,h4 {
@@ -190,7 +200,7 @@ b, strong {
 .btn.circle {
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
-  border-radius: 30px;
+  border-radius: 12px;
 }
 
 .btn.active, .btn:active {
@@ -203,7 +213,7 @@ input {
   border: 1px solid #e7e7e7;
   border-radius: inherit;
   box-shadow: inherit;
-  min-height: 50px;
+  /* min-height: 50px; */
 }
 /* Default CSS */
 .container-half {
@@ -366,17 +376,16 @@ input {
 
 .btn {
   display: inline-block;
-  font-family: "Poppins",sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 25px;
-  text-transform: uppercase;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  text-transform: capitalize;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
-  font-weight: 700;
   letter-spacing: 1px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -713,7 +722,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 .site-heading h2 {
   display: block;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 26px;
   /* text-transform: uppercase; */
 }
 
@@ -723,7 +732,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 
 .site-heading h4 {
   display: inline-block;
-  padding-bottom: 20px;
+  padding-bottom: 34px;
   position: relative;
   text-transform: capitalize;
   z-index: 1;
@@ -743,7 +752,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 
 
 .site-heading {
-  margin-bottom: 10px;
+  margin-bottom: 24px;
   overflow: hidden;
   margin-top: -5px;
 }
@@ -972,7 +981,7 @@ body,
 .banner-area.text-small .content h1 {
   font-weight: 600;
   margin-bottom: 30px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .banner-area.text-small .content a {
@@ -1145,7 +1154,7 @@ body,
 }
 
 .banner-area p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -1660,7 +1669,7 @@ body,
 }
 
 .about-area .default.info h2 {
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.4;
   margin-bottom: 20px;
 }
@@ -4065,3 +4074,76 @@ footer.color-yellow .footer-bottom p a {
   background: url(assets/img/preloader.gif) center no-repeat #fff;
   text-align: center;
 }
+
+/* ============================================================== 
+     NEW
+=================================================================== */
+
+.nav>li {
+    margin-right: 3px;
+}
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-top: 30px;
+    }
+}
+.wrap-sticky nav.navbar.bootsnav {
+    padding: 15px 0px 0px!important;
+}
+
+nav.navbar.bootsnav ul.nav > li > a {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    padding: 38px 38px 20px;
+    text-transform: capitalize;
+}
+
+@media (min-width: 1024px) {
+    nav.navbar.bootsnav.sticked ul.nav > li > a {
+        padding: 20px 38px 20px;
+    }
+}
+@media (min-width: 1024px) {
+    nav.navbar.bootsnav .navbar-brand {
+        /* padding: 15px; */
+    }
+}
+
+@media (min-width: 1024px) {
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover, nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover {
+        color: #ff5a6e;
+    }
+}
+
+#benefit {
+  margin-top: 30px;
+  text-align: center;
+
+    h4, .h4 {
+      font-weight: 800;
+      font-size: 20px;
+      text-align: center !important;
+      margin-top: 30px;
+  }
+
+  .circle {
+      display: inline-block;
+      line-height: 0px;
+      border-radius: 50%;
+      font-size: 51px;
+      background-color: #ffffff;
+      color: #9F9F9F;
+      padding: 30px;
+      border: 2px solid #9F9F9F;
+      font-weight: 800;
+  }
+  .circle span {
+      display: inline-block;
+      padding-top: 50%;
+      padding-bottom: 50%;
+      margin-left: 8px;
+      margin-right: 8px;
+  }
+}
+

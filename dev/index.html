@@ -46,18 +46,53 @@
                 </div>
 
                 <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+                    <form action="/search-result" method="get" class=""></form>
+                        <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+                            <li>
+                                <select class="form-control" id="language-select"><option value="en" selected="">English</option><option value="zh">中文</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="it">Italiano</option><option value="es">Español</option><option value="ja">日本語</option><option value="ru">Русский</option><option value="ko">한국어</option><option value="ar">العربية</option></select>
+                            </li>
+                            <li>
+                                <input class="form-control" type="text" placeholder="Search...">
+                            </li>
+                            <li>
+                                <input type="hidden" name="_token" value="zVgORCB9fJir0lkQJpL1IXex8aD6zalUPS9HymPd"><div id="tipue_drop_content" class="search-result-dropdown"></div><button type="submit" class="btn btn-default">Search</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-center" data-in="#" data-out="#">
                         <li>
                             <a href="#home" class="dropdown-toggle smooth-menu" data-toggle="dropdown" >Home</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="#">Materials</a>
+                            <a class="smooth-menu" href="#">About ULS</a>
+                        </li>
+                        <li class="dropdown dropdown-right">
+                            <a href="#" class="dropdown-toggle smooth-menu" data-toggle="dropdown" >Products</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Our Innovations</a></li>
+                                <li><a href="#">ULTRA X6000</a></li>
+                                <li><a href="#">ULTRA R9000</a></li>
+                                <li><a href="#">ULTRA R5000</a></li>
+                                <li><a href="#">VLS3.60ES Desktop</a></li>
+                                <li><a href="#">Other VLS and PLS</a></li>
+                                <li><a href="#">Technology Videos</a></li>
+                            </ul>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="#">Purchase</a>
+                            <a class="smooth-menu" href="#">Materials Library</a>
                         </li>
-                        <li>
-                            <a class="smooth-menu" href="#">Support</a>
+                        <li class="dropdown dropdown-right">
+                            <a href="#" class="dropdown-toggle smooth-menu" data-toggle="dropdown" >Support</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Support Request</a></li>
+                                <li><a href="#">Frequently Asked Questions</a></li>
+                                <li><a href="#">Software Downloads</a></li>
+                                <li><a href="#">Laser Safety</a></li>
+                                <li><a href="#">1-Touch Laser Photo 30-Day Free Trial</a></li>
+                            </ul>
                         </li>
                         <li>
                             <a class="smooth-menu" href="#">contact</a>
@@ -81,7 +116,7 @@
                                     <p>
                                         Unique systems and methods that deliver flexibility, performance and results that surpass conventional laser processing  tools -- redefining what's possible.
                                     </p>
-                                    <a href="#" class="btn circle btn-blue effect btn-md">Download Whitepaper</a>  <a href="#" class="btn circle btn-blue effect btn-md">Learn About ULS</a>
+                                    <a href="#" class="btn circle btn-blue effect btn-md">Get Whitepaper</a>
                                 </div>
                             </div>
                             <div class="form col-md-5 shadow-light col-md-offset-1">
@@ -275,72 +310,58 @@
                     </div>
                 </div>
             </div>
-            
-            <div class="row default-padding-top2">
-                <div class="our-offer-items less-carousel">
 
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <span class="number">1</span>
-                            <h4>Material Flexibility</h4>
-                            <p>
-                                Downs those still witty an balls so chief so. Moment an little remain no lively 
-                            </p>
-                        </div>
-                    </div>
+            <div class="row" id="benefit">
+                <div class="col-md-2 col-sm-4 equal-height">
+                   <span class="circle">
+                        <span>1</span>
+                    </span>
+                    <h4>Material Flexibility</h4>
+                    <p>process more materials than ever before</p>
+                </div>
 
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <span class="number">2</span>
-                            <h4>Accuracy</h4>
-                            <p>
-                               measurably better results - when microns matter
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-md-2 col-sm-4 equal-height">
+                   <span class="circle">
+                        <span>2</span>
+                    </span>
+                    <h4>Accuracy</h4>
+                    <p>measurably better results - when microns matter</p>
+                </div>
 
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <span class="number">3</span>
-                            <h4>Quality</h4>
-                            <p>
-                                visibly superior results - less or no post-processing
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-md-2 col-sm-4 equal-height">
+                   <span class="circle">
+                        <span>3</span>
+                    </span>
+                    <h4>Quality</h4>
+                    <p>visibly superior results - less or no post-processing</p>
+                </div>
 
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <span class="number">4</span>
-                            <h4>Repeatability</h4>
-                            <p>
-                                highest part-to-part consistency and yield 
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-md-2 col-sm-4 equal-height">
+                   <span class="circle">
+                        <span>4</span>
+                    </span>
+                    <h4>Repeatability</h4>
+                    <p>highest part-to-part consistency and yield</p>
+                </div>
 
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <span class="number">5</span>
-                            <h4>Productivity</h4>
-                            <p>
-                               fast setup and highest throughput
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-md-2 col-sm-4 equal-height">
+                   <span class="circle">
+                        <span>5</span>
+                    </span>
+                    <h4>Productivity</h4>
+                    <p>fast setup and highest throughput</p>
+                </div>
 
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <span class="number">6</span>
-                            <h4>Controllability</h4>
-                            <p>
-                                extreme fine tuning of laser parameters
-                            </p>
-                        </div>
-                    </div>
-
+                <div class="col-md-2 col-sm-4 equal-height">
+                   <span class="circle">
+                        <span>6</span>
+                    </span>
+                    <h4>Controllability</h4>
+                    <p>extreme fine tuning of laser parameters</p>
                 </div>
             </div>
+            
+            
         </div>
     </div>
 
