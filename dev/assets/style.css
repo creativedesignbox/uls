@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Noto Sans", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   overflow-x: hidden;
@@ -292,6 +292,11 @@ input {
 .default-padding {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.default-padding-small {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .default-padding-top2 {
@@ -1624,6 +1629,12 @@ body,
   margin-bottom: 10px;
 }
 
+.about-area .default.info h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
 .about-area .thumb {
     padding-right: 35px;
 }
@@ -1685,7 +1696,7 @@ body,
 }
 
 .about-area ul {
-  margin: 30px 0 15px;
+  margin: 30px 0 15px 30px;
 }
 
 .about-area .thumb.left-width img {
