@@ -320,7 +320,7 @@ input {
   padding-bottom: 90px;
 }
 
-.default-padding.bottom-30 {
+.default-padding-bottom-30 {
   padding-top: 120px;
   padding-bottom: 30px;
 }
@@ -4133,5 +4133,56 @@ nav.navbar.bootsnav ul.nav > li > a {
     color: #c61936;
     font-weight: 800;
    }
+}
+
+.cta-heading-full {
+
+  text-align: center;
+  margin: auto auto 20px;
+
+   h3, .h3 {
+    font-size: 30px;
+   }
+
+   span {
+    color: #c61936;
+    font-weight: 800;
+   }
+}
+
+.footer-top {
+  padding-top: 90px; 
+  border-top: 5px solid #c41331;
+}
+
+.footer-bottom-copyright {
+  padding-top: 30px; 
+  padding-bottom: 50px;
+}
+
+.text-link {
+  color: #c41331;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: #ff5a6e;
+  text-decoration: none;
+}
+
+.material-search>div {
+  padding: 10px 20px 10px 0px;
+}
+
+.material-search{
+  margin-top: 30px;
+    border: 2px solid #ddd;
+    padding: 12px 10px;
+}
+
+.material-result {
+  margin-top: 30px;
+    border: 2px solid #ddd;
+    padding: 12px 10px;
 }
 
