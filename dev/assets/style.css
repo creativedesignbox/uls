@@ -4186,3 +4186,7 @@ nav.navbar.bootsnav ul.nav > li > a {
     padding: 12px 10px;
 }
 
+.active-link a {
+  color: #ff5a6e!important;
+}
+
