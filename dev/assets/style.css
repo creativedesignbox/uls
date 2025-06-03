@@ -303,6 +303,10 @@ input {
   padding-top: 75px;
 }
 
+.default-padding-top3 {
+  padding-top: 30px;
+}
+
 .default-padding-top {
   padding-top: 120px;
 }
@@ -4190,3 +4194,21 @@ nav.navbar.bootsnav ul.nav > li > a {
   color: #ff5a6e!important;
 }
 
+#about-uls {
+  h3, .h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  p, .p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  img {
+    padding-bottom: 20px;
+    margin: auto;
+  }
+}
+
+.about-area-uls .thumb {
+    padding: 0px 35px;
+}
