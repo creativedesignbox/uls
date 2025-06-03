@@ -319,6 +319,10 @@ input {
   padding-bottom: 120px;
 }
 
+.default-padding-bottom3 {
+  padding-bottom: 30px;
+}
+
 .default-padding.bottom-less {
   padding-top: 120px;
   padding-bottom: 90px;
@@ -4236,4 +4240,48 @@ nav.navbar.bootsnav ul.nav > li > a {
         padding-left: 15px;
         padding-right: 15px;
         max-width: 900px;
+}
+
+#products-section {
+
+}
+
+.product-area ul {
+    margin: 30px 0 15px 56px;
+}
+
+.product-area ul li {
+    /* display: block; */
+    margin-bottom: 0px;
+    padding-left: 3px;
+    position: relative;
+    z-index: 1;
+    list-style-type: disc;
+}
+
+.products .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.table-thead-vertical tr td {
+    width: 50%;
+}
+
+.table-thead-vertical .system-specs-title {
+    background-color: #ededed !important;
+}
+.table-thead-vertical .system-specs-title p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 0 3px;
+}
+strong {
+    font-weight: 700;
+}
+
+.table-thead-vertical .system-specs-label {
+    font-weight: 700;
 }
