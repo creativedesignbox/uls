@@ -4212,3 +4212,28 @@ nav.navbar.bootsnav ul.nav > li > a {
 .about-area-uls .thumb {
     padding: 0px 35px;
 }
+
+.embed-container { 
+        position: relative; 
+        padding-bottom: 56.25%; 
+        height: 0; overflow: 
+        hidden; max-width: 100%; 
+    } 
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+    }
+    
+.boxed-container2, 
+.container-boxed2 {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 900px;
+}
