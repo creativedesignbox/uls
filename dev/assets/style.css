@@ -4285,3 +4285,7 @@ strong {
 .table-thead-vertical .system-specs-label {
     font-weight: 700;
 }
+
+textarea.form-control {
+    height: 136px;
+}
