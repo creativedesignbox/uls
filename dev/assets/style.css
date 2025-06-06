@@ -4162,11 +4162,30 @@ nav.navbar.bootsnav ul.nav > li > a {
 .footer-top {
   padding-top: 90px; 
   border-top: 5px solid #c41331;
+  background-color: #000;
+
+    a, a:active, a:focus, a:hover {
+      outline: none;
+      text-decoration: none;
+      color: #fff;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #fff;
+    }
+    .f-item.link li a {
+      color: #fff;
+    }
+
 }
 
 .footer-bottom-copyright {
   padding-top: 30px; 
   padding-bottom: 50px;
+  background-color: #000;
+
+    p {
+      color: #fff;
+    }
 }
 
 .text-link {
@@ -4289,4 +4308,34 @@ strong {
 
 textarea.form-control {
     height: 136px;
+}
+.bg-black {
+  background-color: #000;
+}
+
+.white-text {
+  color: #fff!important;
+}
+
+.banner-area-title, .banner-area div {
+    height: 35%;
+}
+
+.banner-area-title h1 {
+    font-size: clamp(49px, 3vw, 50px);
+}
+
+.heading-title {
+      padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.landing-content ul {
+  margin: 16px 0 15px 56px;
+}
+
+.landing-content h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
