@@ -190,6 +190,12 @@ input {
   background-size: cover;
 }
 
+.bg-fixed-title {
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: contain;
+}
+
 .bg-gray {
   background-color: #f9f9f9;
 }
@@ -4339,3 +4345,5 @@ textarea.form-control {
     margin-bottom: 10px;
     font-size: 20px;
 }
+
+
