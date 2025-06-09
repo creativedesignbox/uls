@@ -2638,7 +2638,7 @@ body,
 }
 
 .team-area .social li.facebook a {
-  background-color: #3b5998;
+  background-color: #0866FF;
 }
 
 .team-area .social li.google-plus a {
@@ -2653,6 +2653,9 @@ body,
   background-color: #cd486b;
 }
 
+.team-area .social li.linkedin a {
+  background-color: #0A66C2;
+}
 
 /* ============================================================== 
      # Video Button Play
@@ -3389,7 +3392,15 @@ blockquote {
 }
 
 .contact-us-area .address .social li.facebook a {
-  background-color: #3b5998;
+  background-color: #0866FF;
+}
+
+.contact-us-area .address .social li.linkedin a {
+  background-color: #0A66C2;
+}
+
+.contact-us-area .address .social li.x-twitter a {
+  background-color: #000;
 }
 
 .contact-us-area .address .social li.g-plus a {

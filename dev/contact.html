@@ -73,10 +73,9 @@
     </header>
 
     <!-- Contact -->
-    <div id="about" class="about-area shape-box bg-gray default-padding">
+    <div id="about" class="contact-us-area shape-box bg-gray default-padding">
         <div class="container">
-
-             <div class="row">
+            <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="site-heading text-center">
                         <h2>Contact Us</h2>
@@ -84,13 +83,136 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Round Shape -->
-        <div class="round-shape">
-            <img src="assets/img/round-shape.png" alt="Thumb">
+            <div class="row">
+                <div class="col-md-8 contact-form">
+                    <form action="assets/mail/contact.php" method="POST" class="contact-form">
+                         <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                    <span class="alert-error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="company" name="company" placeholder="Company or Organization" type="text">
+                                    <span class="alert-error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-12">
+                            <div class="row">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                    <span class="alert-error"></span>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="email" name="email" placeholder="Email" type="email">
+                                    <span class="alert-error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                    <span class="alert-error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="form-group comments">
+                                    <textarea class="form-control" id="comments" name="comments" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div>
+                                    <a href="https://calendly.com/yukibella04/30min" class="btn circle btn-blue effect btn-md">Submit</a>
+                                </div>
+                                <!-- <button type="submit" name="submit" id="submit">
+                                    Submit <i class="fa fa-paper-plane"></i>
+                                </button> -->
+                            </div>
+                        </div>
+                        <!-- Alert Message -->
+                        <div class="col-md-12 alert-notification">
+                            <div id="message" class="alert-msg"></div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-4 address">
+                    <div class="address-items">
+                        <ul class="info">
+                            <li>
+                                <h4>Universal Laser Systems, Inc.</h4>
+                                <div class="icon"><i class="fas fa-map-marked-alt"></i></div> 
+                                <span>7845 East Paradise Lane<br> Scottsdale, AZ 85260</span>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fas fa-phone"></i></div> 
+                                <span>
+                                    (800) 859-7033 U.S.<br>
+                                    (480) 483-1214 Global<br>
+                                    <small>Serving North America, South America, India, Australia and New Zealand</small>
+
+                                </span>
+                            </li>
+
+                            <li>
+                                <h4>Universal Laser Systems GmbH</h4>
+                                <div class="icon"><i class="fas fa-map-marked-alt"></i></div> 
+                                <span>Lerchenfelder Gürtel 43<br> 1160 Vienna, Austria</span>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fas fa-phone"></i></div> 
+                                <span>
+                                    +43 1-402-22-50 Europe<br>
+                                    <small>Serving Europe, the Middle East and Africa</small>
+
+                                </span>
+                            </li>
+
+                            <li>
+                                <h4>Universal Laser Systems, Co. Ltd.</h4>
+                                <div class="icon"><i class="fas fa-map-marked-alt"></i></div> 
+                                <span>The Yokohama Landmark Tower 21F<br> 2-2-1-1 Minatomirai, Nishi-ku,<br> Yokohama, Japan</span>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fas fa-phone"></i></div> 
+                                <span>
+                                    +81 45-224-2279 Japan<br>
+                                    <small>Serving all of Asia, excluding India and New Zealand</small>
+
+                                </span>
+                            </li>
+                        </ul>
+
+                        <h4>Social</h4>
+                        <ul class="social">
+                            <li class="linkedin">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li class="facebook">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="x-twitter">
+                                <a href="#"><img src="assets/images/x-twitter-brands-solid.svg" alt=""></i></a>
+                            </li>
+                            <li class="instagram">
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- End Round Shape -->
     </div>
 
     <!-- Take the first step  -->
