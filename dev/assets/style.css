@@ -4177,9 +4177,10 @@ nav.navbar.bootsnav ul.nav > li > a {
 }
 
 .footer-top {
-  padding-top: 90px; 
-  border-top: 5px solid #c41331;
-  background-color: #000;
+    padding-top: 60px;
+    border-top: 5px solid #c41331;
+    background-color: #000;
+    padding-bottom: 50px;
 
     a, a:active, a:focus, a:hover {
       outline: none;
@@ -4198,10 +4199,10 @@ nav.navbar.bootsnav ul.nav > li > a {
 .footer-bottom-copyright {
   padding-top: 30px; 
   padding-bottom: 50px;
-  background-color: #000;
+  background-color: #e7e7e7;
 
     p {
-      color: #fff;
+      color: #000;
     }
 }
 
