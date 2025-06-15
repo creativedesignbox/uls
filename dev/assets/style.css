@@ -19,7 +19,7 @@ body {
   line-height: 26px;
   overflow-x: hidden;
   background-color: #ffffff;
-  color: #666666;
+  color: #313131;
 }
 
 html, body, .wrapper {
@@ -80,7 +80,7 @@ a img, iframe {
 }
 
 p {
-  color: #666666;
+  /* color: #666666; */
   line-height: 26px;
   margin: 0 0 15px;
   text-transform: none;
@@ -3432,13 +3432,13 @@ blockquote {
 }
 
 .contact-us-area .contact-form input {
-  border: 1px solid #e7e7e7;
+  border: 1px solid #a3a3a3;
   box-shadow: inherit;
   color: #323a45;
 }
 
 .contact-us-area .contact-form textarea {
-  border: 1px solid #e7e7e7;
+  border: 1px solid #a3a3a3;
   box-shadow: inherit;
   min-height: 300px;
   padding-top: 15px;
