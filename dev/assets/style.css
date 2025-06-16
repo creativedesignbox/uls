@@ -4358,3 +4358,60 @@ textarea.form-control {
     margin-bottom: 10px;
     font-size: 20px;
 }
+
+
+
+.software-download {
+
+  .table-download {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  h3, .h3 {
+    margin-top: 40px;
+    padding: 26px;
+    background-color: #e5e5e5;
+   }
+  
+  h4, .h4 {
+    margin-top: 40px;
+    font-weight: 800;
+    padding-left: 26px;
+   }
+
+  .table>tbody>tr>td {
+    padding: 16px;
+    vertical-align: unset;
+  }
+
+  .table>thead>tr>th {
+    padding: 16px;
+    vertical-align: middle;
+  }
+
+  .table>thead:first-child>tr:first-child>th {
+    padding: 16px 30px 16px ;
+    vertical-align: middle;
+  }
+
+  .table>tbody>tr>th {
+    padding: 16px 30px ;
+    vertical-align: unset;
+  }
+
+  .software-name {
+    text-align: left;
+  }
+
+  a {
+    margin: 5px;
+    color: #c41331;
+    text-decoration: underline;
+  }
+  .btn.circle {
+    text-decoration: none;
+  }
+
+
+}
